@@ -1,0 +1,84 @@
+{
+  "accounts": {
+    "account{0}": "0x5B38Da6a701c568545dCfcB03FcB875f56beddC4"
+  },
+  "linkReferences": {},
+  "transactions": [
+    {
+      "timestamp": 1710318089894,
+      "record": {
+        "value": "0",
+        "inputs": "()",
+        "parameters": [],
+        "name": "",
+        "type": "constructor",
+        "abi": "0x888509c1ba0618eb31ed6b55550569d65dc79b8cbdbd2385d4b5d86fb3249c7e",
+        "contractName": "PKCoin",
+        "bytecode": "608060405234801561000f575f80fd5b505f8081905550610273806100235f395ff3fe608060405234801561000f575f80fd5b506004361061004a575f3560e01c806312065fe01461004e5780637c52caa31461006c578063d83b066e14610088578063e51ed0a0146100a4575b5f80fd5b6100566100c0565b604051610063919061011d565b60405180910390f35b61008660048036038101906100819190610164565b6100c8565b005b6100a2600480360381019061009d9190610164565b6100e2565b005b6100be60048036038101906100b99190610164565b6100eb565b005b5f8054905090565b805f808282546100d891906101bc565b9250508190555050565b805f8190555050565b805f808282546100fb91906101fc565b9250508190555050565b5f819050919050565b61011781610105565b82525050565b5f6020820190506101305f83018461010e565b92915050565b5f80fd5b61014381610105565b811461014d575f80fd5b50565b5f8135905061015e8161013a565b92915050565b5f6020828403121561017957610178610136565b5b5f61018684828501610150565b91505092915050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52601160045260245ffd5b5f6101c682610105565b91506101d183610105565b925082820390508181125f8412168282135f8512151617156101f6576101f561018f565b5b92915050565b5f61020682610105565b915061021183610105565b92508282019050828112155f8312168382125f8412151617156102375761023661018f565b5b9291505056fea2646970667358221220c24c2d28fb5d469f5491097cff407f592a466978de98281096c1a727383fa3e764736f6c63430008180033",
+        "linkReferences": {},
+        "from": "account{0}"
+      }
+    }
+  ],
+  "abis": {
+    "0x888509c1ba0618eb31ed6b55550569d65dc79b8cbdbd2385d4b5d86fb3249c7e": [
+      {
+        "inputs": [
+          {
+            "internalType": "int256",
+            "name": "money",
+            "type": "int256"
+          }
+        ],
+        "name": "depositBalance",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "int256",
+            "name": "_balance",
+            "type": "int256"
+          }
+        ],
+        "name": "setBalance",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "stateMutability": "nonpayable",
+        "type": "constructor"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "int256",
+            "name": "money",
+            "type": "int256"
+          }
+        ],
+        "name": "withdrawBalance",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "getBalance",
+        "outputs": [
+          {
+            "internalType": "int256",
+            "name": "",
+            "type": "int256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ]
+  }
+}
