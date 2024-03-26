@@ -16,15 +16,10 @@ contract PKWallet {
     );
 
     function sendViaTransfer(address payable _to) public payable {
-        //_to.transfer(msg.value);
         if (_to.send(msg.value)) {
             emit transfer(block.timestamp, msg.sender, _to, msg.value);
         }
     }
-
-    // function sendViaTransfer(address payable _to) public payable {
-    //     _to.transfer(msg.value);
-    // }
 
     function getChainID() external view returns (uint256) {
         uint256 id;
@@ -34,5 +29,3 @@ contract PKWallet {
         return id;
     }
 }
-//2000000000000000000 wei
-//1000000000000000

@@ -99,11 +99,11 @@
 	},
 	"sources": {
 		"tests/PKWallet.sol": {
-			"keccak256": "0x6088e72e57870c18272ec515e62c06506224f28eea69b28fe8742a688a5f74fe",
+			"keccak256": "0x1cd1e65c65b3ea3ce108c45b3e5b6b2dcafaa3e50c2cd2e66dbf00aa71d6c430",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2fdda01dd9611de56f1fc3c24002d5910fa63cc90a69f5ea11401b89f8e4f299",
-				"dweb:/ipfs/QmRb958oLMP6D4VRb83wE2N2Tr3tF3k5DntddvczKFbhQ6"
+				"bzz-raw://4b816bd778aed0795cf8c930b74d5fa00b0551652d59e70bfbb54b53aa8dd5fe",
+				"dweb:/ipfs/QmUG2dpvxdRwpUED8wBKyEXZjKznvEVYfmQx9sZrccxpR6"
 			]
 		}
 	},
