@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.24+commit.e11b9ed9"
+		"version": "0.8.26+commit.8a97fa7a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -86,7 +86,7 @@
 		"compilationTarget": {
 			"tests/PKWallet.sol": "PKWallet"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -99,11 +99,11 @@
 	},
 	"sources": {
 		"tests/PKWallet.sol": {
-			"keccak256": "0x1cd1e65c65b3ea3ce108c45b3e5b6b2dcafaa3e50c2cd2e66dbf00aa71d6c430",
+			"keccak256": "0xde510cbf0e68ac541aae98b47e0d55377c21c2ba449d1c3a51a81d8ec7e25cb6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4b816bd778aed0795cf8c930b74d5fa00b0551652d59e70bfbb54b53aa8dd5fe",
-				"dweb:/ipfs/QmUG2dpvxdRwpUED8wBKyEXZjKznvEVYfmQx9sZrccxpR6"
+				"bzz-raw://2ced906ea611604b8b9f0c6d5942129fa77894ceb3ce9a1e87d0433828c6cbc4",
+				"dweb:/ipfs/QmZSqj5kvFUVFwpyhEmFcUaMj1hogW3AFomw5RUXfk9JHV"
 			]
 		}
 	},
